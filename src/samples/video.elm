@@ -58,13 +58,13 @@ view model =
             , controls True
             ]
             []
-        , div [] [ text model.title ]
-        , div [] [ text model.description ]
+        , h2 [] [ text model.title ]
+        , h4 [] [ text model.description ]
         , video
             [ src model.videoUrl2
             , controls True
             ]
             []
-        , div [] [ text model.title ]
-        , div [] [ text model.description ]
+        , h2 [] [ text model.title ]
+        , h4 [] [ text model.description ]
         ]
