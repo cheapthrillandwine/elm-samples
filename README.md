@@ -5,3 +5,5 @@ Elm sample codes
 If you will use this samples, I wrote in src/samples folder.
 - button
 - video 
+- image
+
